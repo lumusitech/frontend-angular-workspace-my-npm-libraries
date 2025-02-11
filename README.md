@@ -46,9 +46,12 @@ for more info visit this [link](https://angular.dev/tools/libraries/creating-lib
 
    This library was created to facilitate the reuse of a side menu as an Angular component.
 
-2. Other library...
+2. This application serves as a testbed for our side menu library before its publication on npm.
+   Remember that in order to import a library from this monorepo into the tested application that tests them, you must ensure that in each library, what is to be shared is exported externally. This is done in the library-name/src/public-api.ts file.
 
 3. Other library...
+
+4. Other library...
 
 ---
 
