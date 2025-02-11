@@ -7,7 +7,11 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "ngx-lumusitech-side-menu:build": "ng build ngx-lumusitech-side-menu",
+    "ngx-lumusitech-side-menu:lint": "ng lint ngx-lumusitech-side-menu",
+    "ngx-lumusitech-side-menu:test": "ng test ngx-lumusitech-side-menu --no-watch --no-progress --browsers=ChromeHeadless",
+    "ngx-lumusitech-side-menu:publish": "pnpm ngx-lumusitech-side-menu:test && pnpm ngx-lumusitech-side-menu:build && pnpm publish ./dist/ngx-lumusitech-side-menu"
   },
   "private": true,
   "dependencies": {
