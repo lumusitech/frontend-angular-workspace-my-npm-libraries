@@ -27,6 +27,10 @@ ng lint library-name
 
 ---
 
+Remember run `ng build ngx-lumusitech-side-menu --configuration development` for refresh changes in development.
+
+---
+
 Publish: Use the Angular CLI and the npm package manager to build and publish your library as an npm package.
 You should always build libraries for distribution using the production configuration. This ensures that generated output uses the appropriate optimizations and the correct package format for npm.
 
