@@ -38,3 +38,44 @@ for more info visit this [link](https://angular.dev/tools/libraries/creating-lib
 2. Other library...
 
 3. Other library...
+
+---
+
+## Tips
+
+1. Error linting after install eslint for angular with `ng add angular-eslint`
+
+   ```bash
+   ng lint ngx-lumusitech-side-menu
+   Error: Could not find the '@angular-eslint/builder:lint' builder's node package.
+   ```
+
+   Solution:
+
+   ```bash
+   pnpm add -D @angular-eslint/builder
+   ```
+
+   If error persists after run `ng add angular-eslint` with the next output:
+
+   ```bash
+   ng lint ngx-lumusitech-side-menu
+
+   Linting "ngx-lumusitech-side-menu"...
+
+   An unhandled exception occurred: Cannot find module '@eslint/js'
+
+   Require stack:
+
+   - /Users/lucianofigueroa/dev/frontend/angular/fherrera/pro/lumusitech-workspace/eslint.config.js
+
+   - /Users/lucianofigueroa/dev/frontend/angular/fherrera/pro/lumusitech-workspace/projects/ngx-lumusitech-side-menu/eslint.config.js
+
+   See "/private/var/folders/g3/hmgkb255537_gz6jv329z7k40000gn/T/ng-XASENy/angular-errors.log" for further details.
+   ```
+
+   Solution:
+
+   ```bash
+   pnpm add -D @eslint/js
+   ```

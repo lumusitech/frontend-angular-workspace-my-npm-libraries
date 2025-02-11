@@ -8,9 +8,8 @@ describe('NgxLumusitechSideMenuComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NgxLumusitechSideMenuComponent]
-    })
-    .compileComponents();
+      imports: [NgxLumusitechSideMenuComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(NgxLumusitechSideMenuComponent);
     component = fixture.componentInstance;
