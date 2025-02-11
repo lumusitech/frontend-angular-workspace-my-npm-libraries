@@ -25,6 +25,17 @@ ng test library-name
 ng lint library-name
 ```
 
+---
+
+Publish: Use the Angular CLI and the npm package manager to build and publish your library as an npm package.
+You should always build libraries for distribution using the production configuration. This ensures that generated output uses the appropriate optimizations and the correct package format for npm.
+
+```bash
+ng build library-name
+cd dist/library-name
+pnpm publish
+```
+
 for more info visit this [link](https://angular.dev/tools/libraries/creating-libraries).
 
 ---
