@@ -1,4 +1,9 @@
 <h1 class="text-3xl font-bold underline">Hello world!</h1>
 <p>Hi again</p>
 
-<lib-ngx-lumusitech-side-menu />
+<lib-ngx-lumusitech-side-menu
+  [isAuthenticated]="isAuthenticated()"
+  (onSignIn)="isAuthenticated.set(true)"
+  (onSignOut)="isAuthenticated.set(false)"
+  [titleColor]="TitleColor.green"
+/>

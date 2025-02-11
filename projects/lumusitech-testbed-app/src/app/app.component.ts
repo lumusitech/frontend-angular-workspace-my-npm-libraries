@@ -1,5 +1,8 @@
-import { Component } from '@angular/core';
-import { NgxLumusitechSideMenuComponent } from 'ngx-lumusitech-side-menu';
+import { Component, signal } from '@angular/core';
+import {
+  NgxLumusitechSideMenuComponent,
+  TitleColor,
+} from 'ngx-lumusitech-side-menu';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +11,7 @@ import { NgxLumusitechSideMenuComponent } from 'ngx-lumusitech-side-menu';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'lumusitech-testbed-app';
+  TitleColor = TitleColor;
+
+  isAuthenticated = signal(true);
 }
