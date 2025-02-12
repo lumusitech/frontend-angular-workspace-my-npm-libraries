@@ -1,6 +1,21 @@
 {
   "name": "lumusitech-workspace",
-  "version": "0.0.0",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lumusitech/frontend-angular-workspace-my-npm-libraries"
+  },
+  "keywords": [
+    "Luciano",
+    "Figueroa",
+    "lumusitech",
+    "do-not-use-this",
+    "workspace"
+  ],
+  "author": "Luciano Figueroa",
+  "bugs": {
+    "url": "https://github.com/lumusitech/frontend-angular-workspace-my-npm-libraries/issues"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
