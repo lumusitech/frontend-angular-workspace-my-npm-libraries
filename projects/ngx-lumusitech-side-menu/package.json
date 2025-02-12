@@ -13,6 +13,7 @@
     "side-menu"
   ],
   "author": "Luciano Figueroa",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lumusitech/frontend-angular-workspace-my-npm-libraries/issues"
   },
