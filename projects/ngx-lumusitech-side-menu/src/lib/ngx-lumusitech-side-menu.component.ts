@@ -17,6 +17,9 @@ export enum TitleColor {
 export class NgxLumusitechSideMenuComponent {
   isAuthenticated = input<boolean>(false);
 
+  title = input<string>('Lumusitech');
+  subtitle = input<string>('Corp');
+
   titleColor = input<TitleColor>(TitleColor.purple);
 
   onSignOut = output();
